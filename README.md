@@ -4,11 +4,15 @@ Recover the payloads of a *Duckify* BadUSB from a memory dump.
 
 Reverse the process of [duckify](https://github.com/SpacehuhnTech/duckify).
 
-Whole process explained [here](https://0xlibris.net)
+Whole process explained [here](https://0xlibris.net/posts/reversing_badusb_3/).
 
 # Install
 
-Clone repo and install with pip:
+Install from PyPI:
+
+`pip install unduckify`
+
+Or clone the repo and install with pip:
 
 `pip install .`
 

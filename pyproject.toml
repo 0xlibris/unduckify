@@ -7,11 +7,15 @@ name = "unduckify"
 version = "0.1.0"
 description = "Utility to extract duckify payloads from a memory dump."
 readme = "README.md"
-keywords = ["avr", "radare2", "badusb", "reversing", "r2pipe"]
+license = { file = "LICENSE.txt" }
+keywords = ["reversing", "badusb", "avr", "duckify", "unduckify", "radare2", "r2", "r2pipe"]
 authors = [ { name = "0xlibris" } ]
 dependencies = [
   "r2pipe"
 ]
+
+[project.urls]
+Homepage = "https://0xlibris.net/posts/reversing_badusb_3/"
 
 [project.scripts]
 unduckify = "unduckify.unduckify:main"
