@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unduckify"
-version = "0.1.0"
+version = "0.1.1"
 description = "Utility to extract duckify payloads from a memory dump."
 readme = "README.md"
 license = { file = "LICENSE.txt" }
@@ -15,7 +15,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://0xlibris.net/posts/reversing_badusb_3/"
+homepage = "https://0xlibris.net/posts/reversing_badusb_3/"
+repository = "https://github.com/0xlibris/unduckify"
 
 [project.scripts]
 unduckify = "unduckify.unduckify:main"
